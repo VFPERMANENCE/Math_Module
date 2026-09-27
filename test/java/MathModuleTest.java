@@ -29,4 +29,7 @@ class MathModuleTest {
     void testDivideByZero() {
         assertThrows(IllegalArgumentException.class, () -> MathModule.divide(1, 0));
     }
+
+    @Test
+    void testIsEven() { assertTrue(MathModule.isEven(2)); assertFalse(MathModule.isEven(3)); }
 }
