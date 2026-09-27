@@ -20,7 +20,6 @@ public class MathModule {
     }
 
     public static boolean isEven(int n) {
-        // return n % 2 == 1; // Ошибка из Части 1 (проверка на нечётность)
-        return n % 2 == 0; // Исправление для Части 2
+        return n % 2 == 0;
     }
 }
